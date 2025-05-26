@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ABC Clothing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .store-title {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 36px;
+      border-top: 2px solid #333;
+      border-bottom: 2px solid #333;
+    }
+
+    /* Search bar styles */
+    .search-bar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      background-color: #f1f1f1;
+    }
+
+    .search-bar input[type="text"] {
+      width: 300px;
+      padding: 10px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+
+    .search-bar button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #111;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .product-card {
+      background-color: white;
+      padding: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .product-name {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .product-price {
+      font-size: 16px;
+      color: #888;
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>N E W</h1>
+  </header>
+
+  <div class="store-title">STORE ITEMS</div>
+
+  <!-- Search Bar -->
+  <div class="search-bar">
+    <input type="text" placeholder="Search products...">
+    <button>Search</button>
+  </div>
+
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="D:\Products/T-shirt.jpg" alt="Tshirt">
+      <div class="product-name">T-Shirt</div>
+      <div class="product-price">৳0.00</div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 ABC Clothing. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
